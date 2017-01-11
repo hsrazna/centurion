@@ -77,3 +77,58 @@ header
 	padding: 15px;
 	&.active
 		transform: translate(0, 0)
+
+
+.az-slider
+	margin-top: 3px
+	.az-item
+		width: 100%
+		min-height: 300px
+		position: relative
+		&::before
+			content: ' '
+			margin-top: 40%
+			float: left
+			height: 1px
+			width: 1px
+		.az-item-text
+			position: absolute
+			top: 50%
+			left: 0
+			width: 100%
+			background: rgba(0,0,0,0.5)
+			display: inline-block
+			transform: translate(0, -50%)
+			padding: 30px 10px
+			text-align: center
+			color: #fff
+			font-family: "Geometria-Light", sans-serif
+			font-size: 48px
+			text-transform: uppercase
+			letter-spacing: 0.2em
+	.owl-dots
+		position: absolute;
+		bottom: 24px;
+		left: 50%;
+		transform: translate(-50%, 0)
+		.owl-dot
+			width: 28px
+			height: 28px
+			border-radius: 50%
+			border: 3px solid #fff
+			display: inline-block
+			margin: 0 9px
+			&.active
+				background: url(../img/az-dot.png) no-repeat center center
+
+.az-triangle
+	width: 0
+	height: 0
+	border-bottom: 24px solid #fffccf
+	border-left: 28px solid transparent
+	border-right: 28px solid transparent
+	position: absolute
+	bottom: 0
+	left: 50%
+	transform: translate(-50%, 0)
+	z-index: 99999
