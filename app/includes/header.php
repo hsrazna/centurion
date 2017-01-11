@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-				<div class="az-center">
+				<div class="az-center az-logo">
 					<a href=""><img src="img/az-logo.png" alt=""></a>
 				</div>
 			</div>
@@ -21,9 +21,9 @@
 		</div>
 	</div>
 	<div class="az-mobile-menu hidden-lg hidden-md">
-		<a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
+		<a href="#" class="az-mobile-menu-click"><i class="fa fa-bars" aria-hidden="true"></i></a>
 		<div class="az-drop-menu">
-			<ul class="az-menu">
+			<ul class="az-menu az-menu-style2">
 				<li><a href="#">о нас</a></li>
 				<li><a href="#">проекты</a></li>
 				<li><a href="#">портфолио</a></li>

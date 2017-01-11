@@ -10,6 +10,11 @@ header
 .az-center
 	text-align: center
 
+.az-logo
+	img
+		max-width: 319px
+		width: 80%
+
 .az-menu
 	list-style: none
 	text-align: right
@@ -28,6 +33,15 @@ header
 				color: #003300;
 				text-decoration: none
 
+.az-menu-style2
+	text-align: left
+	margin: 0
+	li
+		display: block
+		padding: 5px 15px
+		a
+			margin-left: 0
+
 .az-tel
 	text-align: right
 	a
@@ -40,3 +54,26 @@ header
 		letter-spacing: 0.02em
 		&:hover
 			text-decoration: none
+
+.az-mobile-menu
+	.az-mobile-menu-click
+		position: absolute
+		top: 50%
+		right: 15px
+		transform: translate(-50%, -50%)
+		color: #000
+		font-size: 16px
+
+.az-drop-menu
+	position: fixed
+	top: 0
+	left: 0
+	transform: translate(-100%, 0)
+	background: #fff
+	border: 1px solid #333
+	height: 100%
+	transition: all 0.7s ease-in-out
+	z-index: 3
+	padding: 15px;
+	&.active
+		transform: translate(0, 0)
