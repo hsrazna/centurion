@@ -1,0 +1,12 @@
+<section class="ah-block2">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<span class="ah-block2-span">Ландшафтный дизайн<br/>и Архетиктура</span>
+				<img src="img/ah-b2_fr.jpg" class="img-responsive" alt="ah-b2_fr">
+				
+
+			</div>
+		</div>
+	</div>
+</section>
