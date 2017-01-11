@@ -13,7 +13,7 @@
 					<li><a href="#">портфолио</a></li>
 					<li><a href="#">статьи</a></li>
 					<li><a href="#">новости</a></li>
-					<li class="az-tel"><a href="tel:+79122401579">+7(91224)01579</a></li>
+					<li class="az-tel"><a href="tel:+79122401579">+7(912)2401579</a></li>
 				</ul>
 				<div class="az-soc">
 					<a href="#"><img src="img/vk.png" alt="vk"></a>
