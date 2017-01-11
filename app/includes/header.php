@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 				<div class="az-center az-logo">
-					<a href=""><img src="img/az-logo.png" alt=""></a>
+					<a href="/"><img src="img/az-logo.png" alt="logo"></a>
 				</div>
 			</div>
 			<div class="col-lg-8 col-md-8 hidden-sm hidden-xs">

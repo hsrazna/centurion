@@ -3,12 +3,10 @@
 @import "libs"
 @import "vars"
 
+/*header*/
 header
 	padding-top: 10px
 	position: relative
-
-.az-center
-	text-align: center
 
 .az-logo
 	img
@@ -31,6 +29,18 @@ header
 			letter-spacing: 0.02em
 			&:hover
 				color: #003300;
+				text-decoration: none
+	.az-tel
+		text-align: right
+		a
+			font-family: "Geometria-Light", sans-serif
+			font-size: 14px
+			padding: 0 40px
+			background: #7c8c6f;
+			color: #fff
+			border-radius: 4px
+			letter-spacing: 0.02em
+			&:hover
 				text-decoration: none
 
 .az-menu-style2
@@ -77,8 +87,9 @@ header
 	padding: 15px;
 	&.active
 		transform: translate(0, 0)
+/*header*/
 
-
+/*block1*/
 .az-slider
 	margin-top: 3px
 	.az-item
@@ -121,9 +132,6 @@ header
 			&.active
 				background: url(../img/az-dot.png) no-repeat center center
 
-.az-slider-style2
-
-
 .az-triangle
 	width: 0
 	height: 0
@@ -135,3 +143,110 @@ header
 	left: 50%
 	transform: translate(-50%, 0)
 	z-index: 99999
+/*block1*/
+
+/*block3*/
+.az-slider-style2
+	.az-item
+		.az-item-text
+			left: 30px
+			width: calc(100% - 46px)
+	.owl-dots
+		position: absolute;
+		bottom: 100px;
+		left: 50%;
+		transform: translate(-50%, 0)
+/*block3*/
+
+
+/*block6*/
+.az-our-works-inner
+	background: #cbdba2
+
+.az-our-works-title
+	background: #003300
+	text-align: center
+	font-family: "Geometria-Light", sans-serif
+	font-size: 36px
+	padding: 15px
+	letter-spacing: 0.2em
+	color: #fff
+	text-transform: uppercase
+	width: 100%
+	display: inline-block
+	margin-bottom: 8px
+
+.az-col-outer
+	margin-left: -3px
+	margin-right: -3px
+
+.az-col
+	width: 33.33%
+	float: left
+	padding: 0 3px
+
+.az-img
+	width: 100%
+	height: 250px
+	position: relative
+	margin-bottom: 3px
+	span
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%, -50%)
+		display: inline-block
+		background: rgba(0,0,0,0.5)
+		color: #fefbfb
+		border: 1px solid #aaa
+		padding: 7px 15px
+		font-size: 27px
+		font-family: "Geometria-Light", sans-serif
+		text-transform: uppercase
+
+.az-leaves
+	background: url(../img/az-leaves.jpg) no-repeat center top
+	width: 100%
+	height: 90px
+/*block6*/
+
+/*block7*/
+.az-car
+	background: url(../img/az-car.jpg) no-repeat calc(3% - 130px) top
+	height: 383px
+	width: 100%
+/*block7*/
+
+.az-img2
+	width: 100%
+	height: 290px
+	position: relative
+	a
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%, -50%)
+		display: inline-block
+		background: rgba(255,255,255,0.5)
+		color: #003300
+		border: 1px solid #003300
+		padding: 15px 5px
+		max-width: 800px
+		width: 90%
+		text-align: center
+		font-size: 36px
+		letter-spacing: 0.2em
+		font-family: "Geometria-Light", sans-serif
+		text-transform: uppercase
+		white-space: nowrap
+		&:hover
+			text-decoration: none
+		&:active
+			text-decoration: none
+
+/*footer*/
+footer
+	padding: 30px 0
+	
+.az-soc
+	text-align: right

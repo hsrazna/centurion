@@ -53,6 +53,7 @@
 	<?php require_once('includes/block5.php'); ?>
 	<?php require_once('includes/block6.php'); ?>
 	<?php require_once('includes/block7.php'); ?>
+	<?php require_once('includes/block8.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
 
 
