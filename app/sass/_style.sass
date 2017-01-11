@@ -3,12 +3,39 @@
 @import "libs"
 @import "vars"
 
+header
+	padding-top: 10px;
+
+.az-center
+	text-align: center
+
 .az-menu
- list-style: none
- text-align: right
- li
-  display: inline-block
-  a
-   display: inline-block
-   margin-left: 45px
-   font-family: "Geometria-Light"
+	list-style: none
+	text-align: right
+	margin: 0
+	padding: 10px 0
+	li
+		display: inline-block
+		a
+			display: inline-block
+			margin-left: 45px
+			font-family: "Geometria-Light", sans-serif
+			font-size: 16px
+			color: #003300;
+			letter-spacing: 0.02em
+			&:hover
+				color: #003300;
+				text-decoration: none
+
+.az-tel
+	text-align: right
+	a
+		font-family: "Geometria-Light", sans-serif
+		font-size: 14px
+		padding: 0 40px
+		background: #7c8c6f;
+		color: #fff
+		border-radius: 4px
+		letter-spacing: 0.02em
+		&:hover
+			text-decoration: none
