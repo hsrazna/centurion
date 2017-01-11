@@ -30,7 +30,7 @@
 
 <body>
 
-	<div class="container">
+	<!-- <div class="container">
 
 		<div class="row">
 
@@ -38,13 +38,23 @@
 				
 				<img class="img-responsive" src="img/preview.jpg" alt="Start HTML5 Template">
 				
-				<?php require_once('includes/block1.php'); ?>
+				<?php //require_once('includes/block1.php'); ?>
 
 			</div>
 			
 		</div>
 
-	</div>
+	</div> -->
+	<?php require_once('includes/header.php'); ?>
+	<?php require_once('includes/block1.php'); ?>
+	<?php require_once('includes/block2.php'); ?>
+	<?php require_once('includes/block3.php'); ?>
+	<?php require_once('includes/block4.php'); ?>
+	<?php require_once('includes/block5.php'); ?>
+	<?php require_once('includes/block6.php'); ?>
+	<?php require_once('includes/block7.php'); ?>
+	<?php require_once('includes/footer.php'); ?>
+
 
 	<script src="js/scripts.min.js"></script>
 
