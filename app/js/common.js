@@ -10,6 +10,19 @@ $(function() {
 		dots: true,
 		margin: 10
 	});
+
+	$('#az-modal').click(function(){
+		$('#az-popup').modal('show');
+		// alert(1);
+		return false;
+	});
+
+	$('.az-close').click(function(){
+		$('#az-popup').modal('hide');
+		return false;
+	});
+
+
 	// Custom JS
 
 });
