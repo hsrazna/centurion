@@ -44,8 +44,8 @@ body
 	display: block
 	max-width: 100%
 	height: auto
-
-.ah-block2
+//************* block2 ***************************
+.ah-block2,.ah-block4,.ah-block5
 	text-align: center
 .ah-block2-span
 	display: inline-block
@@ -66,9 +66,32 @@ body
 	line-height: 18px;
 .ah-block2-wrap
 	padding: 0 40px
-
-
-
+//************* block5 ***************************
+.ah-block5-wrapp
+	background: #eee7d5
+	height: 669px
+	border-radius: 40px
+	box-shadow: 0 2px 50.4px 19.6px rgba(39, 70, 19, 0.39)
+	padding: 55px 25px
+.ah-block5-imgbox1
+	position: relative
+	margin: 33px 40px
+	&::before
+		position: absolute;
+		content: "";
+		background: url(../img/ah-arr_r.png);
+		width: 76px;
+		height: 28px;
+		right: 0px;
+		top: 50%;
+.ah-block5-imgbox2
+	position: relative
+	margin: 33px 40px
+.ah-img1, .ah-img2
+	display: inline-block
+	padding: 7px 0px
+.ah-img1
+	margin-right: 70px 
 
 @import "media" // Всегда в конце
 @import "media2" // Всегда в конце
