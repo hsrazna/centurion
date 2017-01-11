@@ -11,10 +11,17 @@
 </section>
 
 <div id="az-popup">
-	<form>
+	<form class="form1">
 		<div class="az-close-outer"><a href="#" class="az-close"><i class="fa fa-times" aria-hidden="true"></i></a></div>
-		<input type="text" placeholder="Введите имя">
-		<input type="tel" placeholder="Введите телефон">
+		<input type="text" name="uname" placeholder="Введите имя">
+		<input type="tel" name="tel" placeholder="Введите телефон">
 		<input type="submit" value="Отправить">
 	</form>
+</div>
+
+<div id="az-popup2">
+
+		<div class="az-close-outer"><a href="#" class="az-close2"><i class="fa fa-times" aria-hidden="true"></i></a></div>
+		<div class="az-text">Сообщение отправленно</div>
+
 </div>
