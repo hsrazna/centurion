@@ -29,7 +29,6 @@ header
 			letter-spacing: 0.02em
 			&:hover
 				color: #003300;
-				text-decoration: none
 	.az-tel
 		text-align: right
 		a
@@ -247,6 +246,84 @@ header
 /*footer*/
 footer
 	padding: 30px 0
-	
+
 .az-soc
 	text-align: right
+
+/*footer*/
+
+/*modal*/
+#az-popup
+	display: none
+	position: fixed
+	width: 300px
+	background: #fff
+	border-radius: 5px
+	z-index: 999
+	opacity: 0
+	top: 40px
+	left: 50%
+	transform: translate(-50%)
+	padding: 15px !important
+	transition: all 0.8 ease-in-out
+	box-shadow: 0 0 10px #aaa
+	&.in
+		opacity: 1
+		top: 40
+	.az-close-outer
+		text-align: right
+		a
+			font-size: 18px
+			color: #000
+	input
+		display: block
+		width: 100%
+		margin-bottom: 10px
+		padding: 0 5px
+		outline: none
+		border-radius: 4px
+		border: 1px solid #aaa
+		font-family: "Geometria-Light", sans-serif
+		font-size: 14px
+	input[type="submit"]
+		border: none
+		font-family: "Geometria-Light", sans-serif
+		font-size: 14px
+		padding: 0 40px
+		background: #7c8c6f
+		color: #fff
+		letter-spacing: 0.02em
+
+#az-popup2
+	display: none
+	position: fixed
+	width: 300px
+	background: #fff
+	border-radius: 5px
+	z-index: 999
+	opacity: 0
+	top: 40px
+	left: 50%
+	transform: translate(-50%)
+	padding: 15px !important
+	transition: all 0.8 ease-in-out
+	box-shadow: 0 0 10px #aaa
+	&.in
+		opacity: 1
+		top: 40
+	.az-close-outer
+		text-align: right
+		a
+			font-size: 18px
+			color: #000
+	.az-text
+		display: block
+		width: 100%
+		margin-bottom: 10px
+		padding: 0 5px
+		outline: none
+		// border-radius: 4px
+		// border: 1px solid #aaa
+		font-family: "Geometria-Light", sans-serif
+		font-size: 20px
+		text-align: center
