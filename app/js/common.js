@@ -51,6 +51,16 @@ $(function() {
         // }
         return false;
     });
+	var header = $('header').height();
+	$('body').css('padding-top', header+10+'px');
+	$(window).scroll(function(){
+		// alert(1);
+		if($(window).scrollTop() > 5){
+			$('header').css('box-shadow', '0px 0px 10px #999');
+		} else {
+			$('header').css('box-shadow', 'none');
+		}
+	});
 	// Custom JS
 
 });
