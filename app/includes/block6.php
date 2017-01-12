@@ -10,6 +10,7 @@
 							<a href="#">
 								<div class="az-img" style="background: url(img/our-work1.jpg) no-repeat top center; background-size: cover">
 									<span>Кадниково</span>
+									<div class="az-mask"></div>
 								</div>
 							</a>
 						</div>
@@ -17,6 +18,7 @@
 							<a href="#">
 								<div class="az-img" style="background: url(img/our-work2.jpg) no-repeat top center; background-size: cover">
 									<span>Екатеринбург</span>
+									<div class="az-mask"></div>
 								</div>
 							</a>
 						</div>
@@ -24,6 +26,7 @@
 							<a href="#">
 								<div class="az-img" style="background: url(img/our-work3.jpg) no-repeat top center; background-size: cover">
 									<span>Березовский</span>
+									<div class="az-mask"></div>
 								</div>
 							</a>
 						</div>
