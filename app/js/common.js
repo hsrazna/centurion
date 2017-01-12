@@ -18,6 +18,7 @@ $(function() {
 	});
 
 	$('.az-close').click(function(){
+		// alert(1);
 		$('#az-popup').modal('hide');
 		return false;
 	});

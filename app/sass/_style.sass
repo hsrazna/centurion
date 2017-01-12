@@ -220,6 +220,7 @@ header
 		background: rgba(0,0,0,0.5)
 		transition: all 0.4s ease-in-out
 		z-index: 3
+
 	&:hover
 		.az-mask
 			opacity: 1
@@ -259,8 +260,10 @@ header
 		font-family: "Geometria-Light", sans-serif
 		text-transform: uppercase
 		white-space: nowrap
+		transition: all 0.5s ease-in-out
 		&:hover
 			text-decoration: none
+			background: rgba(255,255,255,1)
 		&:active
 			text-decoration: none
 
@@ -282,15 +285,15 @@ footer
 	border-radius: 5px
 	z-index: 999
 	opacity: 0
-	top: 40px
+	top: 50%
 	left: 50%
-	transform: translate(-50%)
+	transform: translate(-50%, -50%)
 	padding: 15px !important
 	transition: all 0.8 ease-in-out
 	box-shadow: 0 0 10px #aaa
 	&.in
 		opacity: 1
-		top: 40
+		top: 50%
 	.az-close-outer
 		text-align: right
 		a
@@ -323,15 +326,15 @@ footer
 	border-radius: 5px
 	z-index: 999
 	opacity: 0
-	top: 40px
+	top: 50%
 	left: 50%
-	transform: translate(-50%)
+	transform: translate(-50%, -50%)
 	padding: 15px !important
 	transition: all 0.8 ease-in-out
 	box-shadow: 0 0 10px #aaa
 	&.in
 		opacity: 1
-		top: 40
+		top: 50%
 	.az-close-outer
 		text-align: right
 		a
